@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortnite AJMJ</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos adicionales aquí */
+        body {
+            background: url('fondo-fortnite.jpg') no-repeat center center fixed; /* Fondo con imagen fija y centrada */
+            background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+            font-family: 'Verdana', sans-serif; /* Fuente predeterminada */
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.5s ease; /* Transición suave para cambios en color de fondo */
+        }
+        header {
+            background-color: rgba(0, 0, 255, 0.8); /* Fondo semi-transparente */
+            color: white;
+            padding: 15px;
+            text-align: center;
+            width: 100%;
+            top: 0;
+        }
+        header h1 {
+            font-size: 36px;
+            text-transform: uppercase;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+            transition: transform 0.3s ease; /* Transición suave en transformación */
+        }
+        nav ul li:hover {
+            transform: scale(1.1); /* Escala el elemento al pasar el ratón */
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease; /* Transición suave en color */
+        }
+        nav ul li a:hover {
+            color: #00ff00; /* Color al pasar el ratón */
+        }
+        main {
+            padding: 20px;
+            margin-top: 80px; /* Espacio para el encabezado */
+            margin-bottom: 50px; /* Espacio para el pie de página */
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+            border-radius: 10px;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        footer {
+            background-color: rgba(0, 0, 255, 0.8); /* Fondo semi-transparente */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            bottom: 0;
+        }
+        section {
+            margin-bottom: 40px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+            transition: transform 0.3s ease; /* Transición suave en transformación */
+        }
+        section:hover {
+            transform: translateY(-5px); /* Desplazamiento al pasar el ratón */
+        }
+        h2 {
+            color: #0000ff;
+            font-size: 28px;
+            border-bottom: 2px solid #0000ff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            transition: color 0.3s ease; /* Transición suave en color */
+        }
+        h2:hover {
+            color: #000080; /* Color al pasar el ratón */
+        }
+        p {
+            line-height: 1.6;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave en transformación y sombra */
+            max-height: 400px; /* Ajusta la altura según tus necesidades */
+        }
+        img:hover {
+            transform: scale(1.05); /* Escala al pasar el ratón */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+        }
+        .side-decor {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            width: 50px;
+            background-color: rgba(0, 0, 255, 0.8); /* Fondo semi-transparente */
+            z-index: 999;
+        }
+        .side-decor.left {
+            left: 0;
+        }
+        .side-decor.right {
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Decoración lateral izquierda -->
+    <div class="side-decor left"></div>
+    <!-- Decoración lateral derecha -->
+    <div class="side-decor right"></div>
+
+    <!-- Encabezado con el título del sitio y la navegación -->
+    <header>
+        <h1>Fortnite</h1>
+        <nav>
+            <ul>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#jugabilidad">Jugabilidad</a></li>
+                <li><a href="#personajes">Personajes</a></li>
+                <li><a href="#modos">Modos de Juego</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal del sitio -->
+    <main>
+        <!-- Sección sobre la historia del juego -->
+        <section id="historia">
+            <h2>Historia de Fortnite</h2>
+            <p>Fortnite es un videojuego desarrollado por Epic Games y lanzado en 2017. Originalmente presentado como un juego de supervivencia cooperativo, Fortnite ganó popularidad mundial con su modo Battle Royale.</p>
+            <p>El modo Battle Royale de Fortnite permite que hasta 100 jugadores compitan en una isla, buscando recursos y eliminando a otros jugadores hasta que solo uno quede en pie. Este modo de juego ha sido un fenómeno cultural, atrayendo a millones de jugadores en todo el mundo.</p>
+            <p>Fortnite ha evolucionado significativamente desde su lanzamiento, con actualizaciones constantes y temporadas temáticas que introducen nuevas mecánicas, personajes y eventos en el juego.</p>
+            <p>Conoce más sobre la historia de Fortnite <a href="https://es.wikipedia.org/wiki/Fortnite" target="_blank">aquí</a>.</p>
+            <img src="historia.jpg" alt="Historia de Fortnite">
+        </section>
+
+        <!-- Sección sobre la jugabilidad del juego -->
+        <section id="jugabilidad">
+            <h2>Jugabilidad</h2>
+            <p>Fortnite es conocido por su combinación única de construcción y combate. Los jugadores pueden recolectar materiales como madera, piedra y metal para construir estructuras defensivas o ofensivas.</p>
+            <p>El juego se juega en una isla grande que se va reduciendo con el tiempo debido a una tormenta que causa daño a los jugadores que se quedan fuera de la zona segura. Esto obliga a los jugadores a confrontarse y hace que las partidas sean dinámicas y emocionantes.</p>
+            <p>Fortnite también cuenta con una amplia variedad de armas y objetos, desde rifles de asalto hasta explosivos y trampas, permitiendo a los jugadores adaptar su estrategia y estilo de juego.</p>
+            <p>Consulta más detalles sobre la jugabilidad en la <a href="https://www.epicgames.com/fortnite/es-ES/home" target="_blank">página oficial</a>.</p>
+            <img src="jugabilidad.jpg" alt="Jugabilidad de Fortnite">
+        </section>
+
+        <!-- Sección sobre los personajes del juego -->
+        <section id="personajes">
+            <h2>Personajes</h2>
+            <p>Fortnite cuenta con una amplia variedad de personajes conocidos como "skins". Estos personajes no solo incluyen diseños originales creados por Epic Games, sino también colaboraciones con franquicias famosas como Marvel, DC, Star Wars, y más.</p>
+            <p>Los jugadores pueden personalizar sus personajes con diferentes atuendos, mochilas, picos y gestos, permitiendo una gran cantidad de personalización y expresión personal en el juego.</p>
+            <p>Además de las skins, Fortnite introduce personajes no jugables (NPC) en el mapa que pueden interactuar con los jugadores, ofreciendo misiones, recompensas y desafíos.</p>
+            <p>Explora las diferentes skins disponibles en la <a href="https://www.epicgames.com/fortnite/es-ES/skins" target="_blank">página oficial de skins</a>.</p>
+            <img src="skins.jpg" alt="Personajes de Fortnite">
+        </section>
+
+        <!-- Sección sobre los modos de juego -->
+        <section id="modos">
+            <h2>Modos de Juego</h2>
+            <p>Fortnite ofrece varios modos de juego, cada uno con su propio conjunto de reglas y objetivos. El más popular es el modo Battle Royale, pero también existen otros modos como el creativo y el modo Salvar el Mundo.</p
+            p>El modo Creativo permite a los jugadores construir sus propios mundos y mapas con una libertad casi ilimitada. Los jugadores pueden crear juegos personalizados, escenarios complejos, y compartirlos con la comunidad.</p>
+            <p>El modo Salvar el Mundo es el modo original de Fortnite, centrado en la cooperación entre jugadores para luchar contra oleadas de enemigos controlados por la IA, recolectar recursos y construir fortificaciones.</p>
+            <p>Fortnite también organiza eventos especiales y modos de tiempo limitado (LTM) que introducen nuevas dinámicas y desafíos, manteniendo el juego fresco y emocionante.</p>
+            <p>Descubre más sobre los modos de juego en la <a href="https://www.epicgames.com/fortnite/es-ES/home" target="_blank">página oficial</a>.</p>
+            <img src="modos.jpg" alt="Modos de Juego de Fortnite">
+        </section>
+
+        <!-- Sección sobre los eventos del juego -->
+        <section id="eventos">
+            <h2>Eventos</h2>
+            <p>Fortnite es conocido por sus eventos en vivo que transforman el mundo del juego y ofrecen experiencias únicas. Estos eventos pueden variar desde conciertos virtuales hasta eventos narrativos que avanzan la historia del juego.</p>
+            <p>Algunos de los eventos más memorables incluyen el concierto de Travis Scott, el evento final de la Temporada X conocido como "The End", y la colaboración con Marvel para el evento "Fortnite x Avengers: Endgame".</p>
+            <p>Estos eventos no solo atraen a millones de jugadores, sino que también se transmiten en plataformas como Twitch y YouTube, convirtiéndose en fenómenos culturales.</p>
+            <p>Fortnite sigue innovando con sus eventos, ofreciendo a los jugadores experiencias inesperadas y emocionantes que definen la evolución del juego.</p>
+            <p>Para más detalles sobre los próximos eventos, visita la <a href="https://www.epicgames.com/fortnite/es-ES/news" target="_blank">página de noticias de Fortnite</a>.</p>
+            <img src="eventos.jpg" alt="Eventos de Fortnite">
+        </section>
+    </main>
+
+    <!-- Pie de página del sitio -->
+    <footer>
+        <p>© 2024 Fortnite - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
